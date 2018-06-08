@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76700" started-at="2018-01-21T16:50:37Z" finished-at="2018-01-21T16:51:53Z">
+    <groups>
+    </groups>
+    <test name="validating user login" duration-ms="44535" started-at="2018-01-21T16:50:37Z" finished-at="2018-01-21T16:51:21Z">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:Academy.Homepage@647fd8ce]" name="initilaize" is-config="true" duration-ms="6547" started-at="2018-01-21T22:20:37Z" finished-at="2018-01-21T22:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@647fd8ce]" name="basepagenavigation" duration-ms="24968" started-at="2018-01-21T22:20:43Z" data-provider="getData" finished-at="2018-01-21T22:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@647fd8ce]" name="basepagenavigation" duration-ms="12631" started-at="2018-01-21T22:21:08Z" data-provider="getData" finished-at="2018-01-21T22:21:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teadown()[pri:0, instance:Academy.Homepage@647fd8ce]" name="teadown" is-config="true" duration-ms="307" started-at="2018-01-21T22:21:21Z" finished-at="2018-01-21T22:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- validating user login -->
+    <test name="validating title" duration-ms="17381" started-at="2018-01-21T16:51:22Z" finished-at="2018-01-21T16:51:39Z">
+      <class name="Academy.validatetitle">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:Academy.validatetitle@60d8c9b7]" name="initilaize" is-config="true" duration-ms="15084" started-at="2018-01-21T22:21:22Z" finished-at="2018-01-21T22:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Academy.validatetitle@60d8c9b7]" name="basepagenavigation" duration-ms="154" started-at="2018-01-21T22:21:37Z" finished-at="2018-01-21T22:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teadown()[pri:0, instance:Academy.validatetitle@60d8c9b7]" name="teadown" is-config="true" duration-ms="2135" started-at="2018-01-21T22:21:37Z" finished-at="2018-01-21T22:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- Academy.validatetitle -->
+    </test> <!-- validating title -->
+    <test name="validating navigation bar" duration-ms="14438" started-at="2018-01-21T16:51:39Z" finished-at="2018-01-21T16:51:53Z">
+      <class name="Academy.validanavbar">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:Academy.validanavbar@65466a6a]" name="initilaize" is-config="true" duration-ms="14135" started-at="2018-01-21T22:21:39Z" finished-at="2018-01-21T22:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Academy.validanavbar@65466a6a]" name="basepagenavigation" duration-ms="161" started-at="2018-01-21T22:21:53Z" finished-at="2018-01-21T22:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teadown()[pri:0, instance:Academy.validanavbar@65466a6a]" name="teadown" is-config="true" duration-ms="134" started-at="2018-01-21T22:21:53Z" finished-at="2018-01-21T22:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- Academy.validanavbar -->
+    </test> <!-- validating navigation bar -->
+    <test name="Test" duration-ms="2" started-at="2018-01-21T16:51:53Z" finished-at="2018-01-21T16:51:53Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
